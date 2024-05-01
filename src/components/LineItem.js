@@ -33,7 +33,7 @@ function LineItem({ name, content, icon, isPhone, isEmail }) {
       <div class="card-content">
         <div class="media">
           <div class="media-left">
-            <figure class="image is-48x48">
+            <figure class="image is-32x32">
               <i class="medium material-icons">{icon}</i>
             </figure>
           </div>
