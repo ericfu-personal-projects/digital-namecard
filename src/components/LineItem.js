@@ -30,16 +30,16 @@ function LineItem({ name, content, icon, isPhone, isEmail }) {
 
   return (
     <div className="card">
-      <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-32x32">
-              <i class="medium material-icons">{icon}</i>
+      <div className="card-content">
+        <div className="media">
+          <div className="media-left">
+            <figure className="image is-32x32">
+              <i className="medium material-icons">{icon}</i>
             </figure>
           </div>
-          <div class="media-content">
-            <p class="title is-6">{mediaContent}</p>
-            <p class="subtitle is-7">{name}</p>
+          <div className="media-content">
+            <p className="title is-6">{mediaContent}</p>
+            <p className="subtitle is-7">{name}</p>
           </div>
         </div>
       </div>
